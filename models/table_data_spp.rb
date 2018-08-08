@@ -1,7 +1,7 @@
 module Amd
   class TableDataSpp < TableDataBase
     # DB SP name
-    self.function_name = 'rpt_amd_spp'
+    self.function_name = 'table_data_spp'
 
     class << self
       private
